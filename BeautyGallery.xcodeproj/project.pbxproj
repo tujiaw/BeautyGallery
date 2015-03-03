@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9D53CC1E1AA5EA890000B62E /* KoreanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D53CC1D1AA5EA890000B62E /* KoreanViewController.swift */; };
 		9DD5DB0B19EADA2700CF62B5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD5DB0A19EADA2700CF62B5 /* AppDelegate.swift */; };
 		9DD5DB0D19EADA2700CF62B5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD5DB0C19EADA2700CF62B5 /* ViewController.swift */; };
 		9DD5DB1019EADA2700CF62B5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DD5DB0E19EADA2700CF62B5 /* Main.storyboard */; };
@@ -28,6 +29,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9D53CC1D1AA5EA890000B62E /* KoreanViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KoreanViewController.swift; sourceTree = "<group>"; };
 		9DD5DB0519EADA2700CF62B5 /* BeautyGallery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BeautyGallery.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DD5DB0919EADA2700CF62B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9DD5DB0A19EADA2700CF62B5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -89,6 +91,7 @@
 				9DD5DB1119EADA2700CF62B5 /* Images.xcassets */,
 				9DD5DB1319EADA2700CF62B5 /* LaunchScreen.xib */,
 				9DD5DB0819EADA2700CF62B5 /* Supporting Files */,
+				9D53CC1D1AA5EA890000B62E /* KoreanViewController.swift */,
 			);
 			path = BeautyGallery;
 			sourceTree = "<group>";
@@ -219,6 +222,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9DD5DB2B19EAE01A00CF62B5 /* ViewControllerPickerView.swift in Sources */,
+				9D53CC1E1AA5EA890000B62E /* KoreanViewController.swift in Sources */,
 				9DD5DB2D19EAE35900CF62B5 /* GalleryViewController.swift in Sources */,
 				9DD5DB0D19EADA2700CF62B5 /* ViewController.swift in Sources */,
 				9DD5DB0B19EADA2700CF62B5 /* AppDelegate.swift in Sources */,
@@ -413,6 +417,7 @@
 				9DD5DB2619EADA2800CF62B5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9DD5DB2719EADA2800CF62B5 /* Build configuration list for PBXNativeTarget "BeautyGalleryTests" */ = {
 			isa = XCConfigurationList;
@@ -421,6 +426,7 @@
 				9DD5DB2919EADA2800CF62B5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
