@@ -23,26 +23,23 @@ class KoreanViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    
-    @IBAction func facebookClicked(sender: AnyObject) {
-        var controller = SLComposeViewController(forServiceType: SLServiceTypeFacebook)
-        controller.setInitialText("一起来玩女神画廊吧,www.csdn.net")
+    func share(serviceType:String, content:String) {
+        var controller = SLComposeViewController(forServiceType: serviceType)
+        controller.setInitialText(content)
         controller.addImage(imageShow.image)
         self.presentViewController(controller, animated: true, completion: nil)
+    }
+    
+    @IBAction func facebookClicked(sender: AnyObject) {
+        share(SLServiceTypeFacebook, content:"一起来玩女神画廊吧,www.csdn.net")
     }
     
     @IBAction func twitterClicked(sender: AnyObject) {
-        var controller = SLComposeViewController(forServiceType: SLServiceTypeTwitter)
-        controller.setInitialText("一起来玩女神画廊吧,www.csdn.net")
-        controller.addImage(imageShow.image)
-        self.presentViewController(controller, animated: true, completion: nil)
+        share(SLServiceTypeTwitter, content:"一起来玩女神画廊吧,www.csdn.net")
     }
     
     @IBAction func sinaClicked(sender: AnyObject) {
-        var controller = SLComposeViewController(forServiceType: SLServiceTypeSinaWeibo)
-        controller.setInitialText("一起来玩女神画廊吧,www.csdn.net")
-        controller.addImage(imageShow.image)
-        self.presentViewController(controller, animated: true, completion: nil)
+        share(SLServiceTypeSinaWeibo, content:"一起来玩女神画廊吧,www.csdn.net")
     }
     
 }
